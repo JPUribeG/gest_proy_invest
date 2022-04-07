@@ -8,5 +8,5 @@ import com.example.gest_proy_invest.entity.Role;
 @Repository
 public interface RoleRepository extends CrudRepository<Role, Long>{
 
-	
+	public Role findByName(String role);
 }
